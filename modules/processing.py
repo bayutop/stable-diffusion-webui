@@ -1353,7 +1353,7 @@ class StableDiffusionProcessingImg2Img(StableDiffusionProcessing):
     mask_blur_y: int = 4
     mask_blur: int = None
     inpainting_fill: int = 0
-    inpaint_full_res: bool = True
+    inpaint_full_res: bool = False
     inpaint_full_res_padding: int = 0
     inpainting_mask_invert: int = 0
     initial_noise_multiplier: float = None
